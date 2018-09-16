@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<commonscales>
+	<scale>
+		<name>Squier Bullet Mini</name>
+		<type>Electric Guitar</type>
+		<summary>20.7 in (526 mm)</summary>
+		<aka/>
+		<diapason>525.8</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Rickenbacker Electro (student model) Es-16</altname>
+			<altname>Rickenbacker 1996 320 and 325</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Fender Mustang</name>
+		<type>Electric Guitar</type>
+		<summary>22.5 in (572 mm)</summary>
+		<aka>Fender 3/4 scale</aka>
+		<diapason>571.5</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Fender Duosonic</altname>
+			<altname>Fender Musicmaster</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Fender Stratocaster Junior</name>
+		<type>Electric Guitar</type>
+		<summary>22.72 in (577 mm)</summary>
+		<aka/>
+		<diapason>577</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Les Paul Junior</name>
+		<type>Electric Guitar</type>
+		<summary>22.75 in (578 mm)</summary>
+		<aka>Gibson 3/4 scale</aka>
+		<diapason>577.9</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Gibson Melody Maker</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Gibson Byrdland</name>
+		<type>Electric Guitar</type>
+		<summary>23.5 in (597 mm)</summary>
+		<aka/>
+		<diapason>597</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Fender Jaguar</name>
+		<type>Electric Guitar</type>
+		<summary>24 in (610 mm)</summary>
+		<aka>confusingly called "full scale" in Fender sales literature</aka>
+		<diapason>609.6</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Most and current Fender Mustang</altname>
+			<altname>Fender Jag-Stang</altname>
+			<altname>Most Musicmaster II and Duosonic II</altname>
+			<altname>Fender Bronco</altname>
+			<altname>Brian May Red Special</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Mosrite guitars</name>
+		<type>Electric Guitar</type>
+		<summary>24.5 in (622 mm)</summary>
+		<aka/>
+		<diapason>622.3</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Paul Reed Smith 245 series guitars</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Gibson Les Paul</name>
+		<type>Electric Guitar</type>
+		<summary>24.75 in (629 mm)</summary>
+		<aka/>
+		<diapason>628.7</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Gibson SG</altname>
+			<altname>Gibson ES-175</altname>
+			<altname>Epiphone Les Paul</altname>
+			<altname>Epiphone G-310 and G-400 SGs</altname>
+			<altname>Original Gibson ES-150</altname>
+			<altname>Fender Cyclone</altname>
+			<altname>Rickenbacker most electric guitars (including 330, 340, 350, 360, 370, 380, 620, 650, 660)</altname>
+			<altname>Guild most electric guitars</altname>
+			<altname>ESP Maverick now it calls ESP MV</altname>
+			<altname>Fender Tele-Sonic</altname>
+			<altname>Fender Stratosonic</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Dobro resonator guitars</name>
+		<type>Electric Guitar</type>
+		<summary>25 in (635 mm)</summary>
+		<aka/>
+		<diapason>635</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Danelectro guitars</altname>
+			<altname>Most Paul Reed Smith guitars</altname>
+			<altname>Most Patrick Eggle guitars</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Selmer Maccaferri Grande Bouche Model</name>
+		<type>Electric Guitar</type>
+		<summary>25.2 in (640 mm)</summary>
+		<aka/>
+		<diapason>640</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Fender Stratocaster</name>
+		<type>Electric Guitar</type>
+		<summary>25.5 in (648 mm)</summary>
+		<aka/>
+		<diapason>647.7</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Fender Telecaster</altname>
+			<altname>Fender Esquire</altname>
+			<altname>Fender Jazzmaster</altname>
+			<altname>Most Jackson Guitars</altname>
+			<altname>Squier Stratocaster</altname>
+			<altname>Kramer Striker</altname>
+			<altname>Most Ibanez guitars</altname>
+			<altname>Most Schecter guitars</altname>
+			<altname>Gibson L-5</altname>
+			<altname>Gibson Super 400</altname>
+			<altname>Gibson Johnny Smith Model</altname>
+			<altname>Fender Stratocaster some 24.75</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Selmer Petit Bouche Model and most Mirecourt-era Gypsy Jazz guitars</name>
+		<type>Electric Guitar</type>
+		<summary>26.38 in (670 mm)</summary>
+		<aka/>
+		<diapason>670</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Fender Jaguar Baritone Special HH (tuned B-B)</name>
+		<type>Electric Guitar</type>
+		<summary>27 in (686 mm)</summary>
+		<aka/>
+		<diapason>685.8</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Ibanez RG2228 8-string guitar (tuned F#-B-E-A-D-G-B-E)</altname>
+			<altname>Jim Soloway guitars</altname>
+			<altname>Buckethead Signature Gibson (24 fret oversized Les Paul opposed to traditional 22 fret)</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Gretsch G6144 Spectra Sonic Baritone</name>
+		<type>Electric Guitar</type>
+		<summary>29.25 in (743 mm)</summary>
+		<aka/>
+		<diapason>743</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Airline Supro pocket Bass</name>
+		<type>Electric Bass</type>
+		<summary>25 in</summary>
+		<aka/>
+		<diapason>635</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Fender Jaguar Bass VI Custom</name>
+		<type>Electric Bass</type>
+		<summary>28.5 in (724 mm)</summary>
+		<aka/>
+		<diapason>723.9</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Fender Mustang Bass</name>
+		<type>Electric Bass</type>
+		<summary>30 in (762 mm)</summary>
+		<aka/>
+		<diapason>762</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Fender Bronco Bass</altname>
+			<altname>Fender Musicmaster Bass</altname>
+			<altname>Fender Bass VI</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Hofner 500 Beatle Bass</name>
+		<type>Electric Bass</type>
+		<summary>30.25 in (768 mm)</summary>
+		<aka/>
+		<diapason>768.4</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Mosrite basses</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Gibson EB-1</name>
+		<type>Electric Bass</type>
+		<summary>30.5 in (775 mm)</summary>
+		<aka/>
+		<diapason>774.7</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Gibson EB-1</altname>
+			<altname>Gibson EB-0</altname>
+			<altname>Gibson other EB-x basses</altname>
+			<altname>Gibson SG bass</altname>
+			<altname>Hamer B8S 8-string</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Rickenbacker 4000 Series basses</name>
+		<type>Electric Bass</type>
+		<summary>33.25 in (845 mm)</summary>
+		<aka/>
+		<diapason>844.6</diapason>
+		<frets>22</frets>
+		<altnames/>
+	</scale>
+	<scale>
+		<name>Fender Precision</name>
+		<type>Electric Bass</type>
+		<summary>34 in (864 mm)</summary>
+		<aka/>
+		<diapason>863.6</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Fender Jazz Bass</altname>
+			<altname>Fender Jaguar Bass</altname>
+			<altname>Gibson Thunderbird</altname>
+			<altname>Most Ibanez basses</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Gibson EB-0L</name>
+		<type>Electric Bass</type>
+		<summary>34.5 in (876 mm)</summary>
+		<aka/>
+		<diapason>876.3</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Gibson other EB-xL basses</altname>
+		</altnames>
+	</scale>
+	<scale>
+		<name>Ibanez BTB series basses</name>
+		<type>Electric Bass</type>
+		<summary>35 in (889 mm)</summary>
+		<aka/>
+		<diapason>889</diapason>
+		<frets>22</frets>
+		<altnames>
+			<altname>Yamaha TRB series</altname>
+		</altnames>
+	</scale>
+</commonscales>

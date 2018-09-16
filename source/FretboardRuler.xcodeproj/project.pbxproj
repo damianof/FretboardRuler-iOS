@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FretboardRulerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FretboardRulerAppDelegate.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D7ACF80DDB3853001CB0EB /* FretboardRulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FretboardRulerViewController.m */; };
+		AE67A93F13376D38006D28E8 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AE67A93D13376D38006D28E8 /* Default-Landscape~ipad.png */; };
+		AE67A94013376D38006D28E8 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AE67A93E13376D38006D28E8 /* Default-Portrait~ipad.png */; };
+		AE7D0E4B1309829D006A64F8 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D0E491309829D006A64F8 /* OptionsViewController.m */; };
+		AE7D0EC513099314006A64F8 /* PresetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D0EC313099314006A64F8 /* PresetsViewController.m */; };
+		AEAC0DAC130634650037A9B7 /* DrawCALayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAC0DAB130634650037A9B7 /* DrawCALayerDelegate.m */; };
+		AEC37B241310051C00902153 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC37B231310051C00902153 /* QuartzCore.framework */; };
+		AEC3850F1312F8ED00902153 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC3850E1312F8ED00902153 /* MessageUI.framework */; };
+		AEC389D21316B88200902153 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC389CF1316B88200902153 /* NSDataAdditions.m */; };
+		AEC389D31316B88200902153 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC389D11316B88200902153 /* TBXML.m */; };
+		AEC38A0D1316BEF000902153 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC38A0C1316BEF000902153 /* libz.dylib */; };
+		AED42CD2131FBA9100539BD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CC7131FBA9100539BD4 /* Default.png */; };
+		AED42CD3131FBA9100539BD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CC8131FBA9100539BD4 /* Default@2x.png */; };
+		AED42CD4131FBA9100539BD4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CC9131FBA9100539BD4 /* Icon-72.png */; };
+		AED42CD5131FBA9100539BD4 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CCA131FBA9100539BD4 /* Icon-Small-50.png */; };
+		AED42CD6131FBA9100539BD4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CCB131FBA9100539BD4 /* Icon-Small.png */; };
+		AED42CD7131FBA9100539BD4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CCC131FBA9100539BD4 /* Icon-Small@2x.png */; };
+		AED42CD8131FBA9100539BD4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CCD131FBA9100539BD4 /* Icon.png */; };
+		AED42CD9131FBA9100539BD4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42CCE131FBA9100539BD4 /* Icon@2x.png */; };
+		AED42DB913224A0400539BD4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AED42DB713224A0400539BD4 /* AboutViewController.m */; };
+		AED42DC4132251EB00539BD4 /* SWGLogoSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42DC2132251EB00539BD4 /* SWGLogoSmall.png */; };
+		AED42DC5132251EB00539BD4 /* SWGLogoSmall@2.png in Resources */ = {isa = PBXBuildFile; fileRef = AED42DC3132251EB00539BD4 /* SWGLogoSmall@2.png */; };
+		AEE6273613321BF800223DCE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEE6273513321BF800223DCE /* Settings.bundle */; };
+		AEE627381333502D00223DCE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = AEE627371333502D00223DCE /* iTunesArtwork */; };
+		AEEC98CB1332139C00135597 /* FretBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC98CA1332139C00135597 /* FretBoard.m */; };
+		AEEC98D0133213C700135597 /* Fret.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC98CD133213C700135597 /* Fret.m */; };
+		AEEC98D1133213C700135597 /* Preset.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC98CF133213C700135597 /* Preset.m */; };
+		AEEC98D41332140800135597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC98D31332140800135597 /* main.m */; };
+		AEEC98D71332143200135597 /* ExportToPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC98D61332143200135597 /* ExportToPDF.m */; };
+		AEEC98DD133214C700135597 /* PresetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC98D8133214C700135597 /* PresetsViewController.xib */; };
+		AEEC98DE133214C700135597 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC98D9133214C700135597 /* AboutViewController.xib */; };
+		AEEC98DF133214C700135597 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC98DA133214C700135597 /* OptionsViewController.xib */; };
+		AEEC98E0133214C700135597 /* FretboardRulerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC98DB133214C700135597 /* FretboardRulerViewController.xib */; };
+		AEEC98E1133214C700135597 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC98DC133214C700135597 /* MainWindow.xib */; };
+		AEEC98E3133214DD00135597 /* DefaultPresets.xml in Resources */ = {isa = PBXBuildFile; fileRef = AEEC98E2133214DD00135597 /* DefaultPresets.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FretboardRulerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretboardRulerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FretboardRulerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretboardRulerAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* FretboardRulerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretboardRulerViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FretboardRulerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FretboardRulerViewController.m; sourceTree = "<group>"; };
+		AE67A93D13376D38006D28E8 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		AE67A93E13376D38006D28E8 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		AE7D0E481309829D006A64F8 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		AE7D0E491309829D006A64F8 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		AE7D0EC213099314006A64F8 /* PresetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetsViewController.h; sourceTree = "<group>"; };
+		AE7D0EC313099314006A64F8 /* PresetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresetsViewController.m; sourceTree = "<group>"; };
+		AEAC0DAA130634650037A9B7 /* DrawCALayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCALayerDelegate.h; sourceTree = "<group>"; };
+		AEAC0DAB130634650037A9B7 /* DrawCALayerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCALayerDelegate.m; sourceTree = "<group>"; };
+		AEC37B231310051C00902153 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEC3850E1312F8ED00902153 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AEC389CE1316B88200902153 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		AEC389CF1316B88200902153 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		AEC389D01316B88200902153 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		AEC389D11316B88200902153 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		AEC38A0C1316BEF000902153 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AED42CC7131FBA9100539BD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AED42CC8131FBA9100539BD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AED42CC9131FBA9100539BD4 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		AED42CCA131FBA9100539BD4 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		AED42CCB131FBA9100539BD4 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		AED42CCC131FBA9100539BD4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		AED42CCD131FBA9100539BD4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AED42CCE131FBA9100539BD4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		AED42DB613224A0400539BD4 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		AED42DB713224A0400539BD4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		AED42DC2132251EB00539BD4 /* SWGLogoSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWGLogoSmall.png; sourceTree = "<group>"; };
+		AED42DC3132251EB00539BD4 /* SWGLogoSmall@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SWGLogoSmall@2.png"; sourceTree = "<group>"; };
+		AEE6273513321BF800223DCE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		AEE627371333502D00223DCE /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		AEE62739133352C000223DCE /* FretRuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretRuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC98C91332139C00135597 /* FretBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FretBoard.h; path = Classes/FretBoard.h; sourceTree = "<group>"; };
+		AEEC98CA1332139C00135597 /* FretBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FretBoard.m; path = Classes/FretBoard.m; sourceTree = "<group>"; };
+		AEEC98CC133213C700135597 /* Fret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fret.h; path = Classes/Fret.h; sourceTree = "<group>"; };
+		AEEC98CD133213C700135597 /* Fret.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fret.m; path = Classes/Fret.m; sourceTree = "<group>"; };
+		AEEC98CE133213C700135597 /* Preset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Preset.h; path = Classes/Preset.h; sourceTree = "<group>"; };
+		AEEC98CF133213C700135597 /* Preset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preset.m; path = Classes/Preset.m; sourceTree = "<group>"; };
+		AEEC98D2133213FB00135597 /* UnitType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnitType.h; path = Classes/UnitType.h; sourceTree = "<group>"; };
+		AEEC98D31332140800135597 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
+		AEEC98D51332143200135597 /* ExportToPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportToPDF.h; path = Classes/ExportToPDF.h; sourceTree = "<group>"; };
+		AEEC98D61332143200135597 /* ExportToPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExportToPDF.m; path = Classes/ExportToPDF.m; sourceTree = "<group>"; };
+		AEEC98D8133214C700135597 /* PresetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PresetsViewController.xib; path = Resources/PresetsViewController.xib; sourceTree = "<group>"; };
+		AEEC98D9133214C700135597 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Resources/AboutViewController.xib; sourceTree = "<group>"; };
+		AEEC98DA133214C700135597 /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OptionsViewController.xib; path = Resources/OptionsViewController.xib; sourceTree = "<group>"; };
+		AEEC98DB133214C700135597 /* FretboardRulerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FretboardRulerViewController.xib; path = Resources/FretboardRulerViewController.xib; sourceTree = "<group>"; };
+		AEEC98DC133214C700135597 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		AEEC98E2133214DD00135597 /* DefaultPresets.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DefaultPresets.xml; path = Data/DefaultPresets.xml; sourceTree = "<group>"; };
+		AEEC98E81332157600135597 /* FretboardRuler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FretboardRuler-Info.plist"; sourceTree = "<group>"; };
+		AEEC98EA133215B800135597 /* FretboardRuler_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FretboardRuler_Prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				AEC37B241310051C00902153 /* QuartzCore.framework in Frameworks */,
+				AEC3850F1312F8ED00902153 /* MessageUI.framework in Frameworks */,
+				AEC38A0D1316BEF000902153 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEC389CC1316B86500902153 /* XMLParser */,
+				AE7D0E4613098242006A64F8 /* App Delegate */,
+				AEAC122013077BA50037A9B7 /* Enums */,
+				AEAC0D03130625000037A9B7 /* Objects */,
+				AE7D0E4513098220006A64F8 /* Draw View */,
+				AE7D0E4713098271006A64F8 /* Options View */,
+				AE7D0EBE130992DF006A64F8 /* Presets View */,
+				AED42DB5132249D700539BD4 /* About View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE62739133352C000223DCE /* FretRuler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				AEE6273513321BF800223DCE /* Settings.bundle */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC98EA133215B800135597 /* FretboardRuler_Prefix.pch */,
+				AEEC98D31332140800135597 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC98E81332157600135597 /* FretboardRuler-Info.plist */,
+				AED42CDB131FBAAD00539BD4 /* Data */,
+				AED42CC4131FBA9100539BD4 /* Images */,
+				AEEC98D8133214C700135597 /* PresetsViewController.xib */,
+				AEEC98D9133214C700135597 /* AboutViewController.xib */,
+				AEEC98DA133214C700135597 /* OptionsViewController.xib */,
+				AEEC98DB133214C700135597 /* FretboardRulerViewController.xib */,
+				AEEC98DC133214C700135597 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				AEC37B231310051C00902153 /* QuartzCore.framework */,
+				AEC3850E1312F8ED00902153 /* MessageUI.framework */,
+				AEC38A0C1316BEF000902153 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE7D0E4513098220006A64F8 /* Draw View */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* FretboardRulerViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FretboardRulerViewController.m */,
+				AEAC0DAA130634650037A9B7 /* DrawCALayerDelegate.h */,
+				AEAC0DAB130634650037A9B7 /* DrawCALayerDelegate.m */,
+			);
+			name = "Draw View";
+			sourceTree = "<group>";
+		};
+		AE7D0E4613098242006A64F8 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FretboardRulerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FretboardRulerAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		AE7D0E4713098271006A64F8 /* Options View */ = {
+			isa = PBXGroup;
+			children = (
+				AE7D0E481309829D006A64F8 /* OptionsViewController.h */,
+				AE7D0E491309829D006A64F8 /* OptionsViewController.m */,
+			);
+			name = "Options View";
+			sourceTree = "<group>";
+		};
+		AE7D0EBE130992DF006A64F8 /* Presets View */ = {
+			isa = PBXGroup;
+			children = (
+				AE7D0EC213099314006A64F8 /* PresetsViewController.h */,
+				AE7D0EC313099314006A64F8 /* PresetsViewController.m */,
+			);
+			name = "Presets View";
+			sourceTree = "<group>";
+		};
+		AEAC0D03130625000037A9B7 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC98D51332143200135597 /* ExportToPDF.h */,
+				AEEC98D61332143200135597 /* ExportToPDF.m */,
+				AEEC98CC133213C700135597 /* Fret.h */,
+				AEEC98CD133213C700135597 /* Fret.m */,
+				AEEC98CE133213C700135597 /* Preset.h */,
+				AEEC98CF133213C700135597 /* Preset.m */,
+				AEEC98C91332139C00135597 /* FretBoard.h */,
+				AEEC98CA1332139C00135597 /* FretBoard.m */,
+			);
+			name = Objects;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AEAC122013077BA50037A9B7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC98D2133213FB00135597 /* UnitType.h */,
+			);
+			name = Enums;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AEC389CC1316B86500902153 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				AEC389CE1316B88200902153 /* NSDataAdditions.h */,
+				AEC389CF1316B88200902153 /* NSDataAdditions.m */,
+				AEC389D01316B88200902153 /* TBXML.h */,
+				AEC389D11316B88200902153 /* TBXML.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		AED42CC4131FBA9100539BD4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE67A93D13376D38006D28E8 /* Default-Landscape~ipad.png */,
+				AE67A93E13376D38006D28E8 /* Default-Portrait~ipad.png */,
+				AEE627371333502D00223DCE /* iTunesArtwork */,
+				AED42DC2132251EB00539BD4 /* SWGLogoSmall.png */,
+				AED42DC3132251EB00539BD4 /* SWGLogoSmall@2.png */,
+				AED42CC7131FBA9100539BD4 /* Default.png */,
+				AED42CC8131FBA9100539BD4 /* Default@2x.png */,
+				AED42CC9131FBA9100539BD4 /* Icon-72.png */,
+				AED42CCA131FBA9100539BD4 /* Icon-Small-50.png */,
+				AED42CCB131FBA9100539BD4 /* Icon-Small.png */,
+				AED42CCC131FBA9100539BD4 /* Icon-Small@2x.png */,
+				AED42CCD131FBA9100539BD4 /* Icon.png */,
+				AED42CCE131FBA9100539BD4 /* Icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AED42CDB131FBAAD00539BD4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC98E2133214DD00135597 /* DefaultPresets.xml */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		AED42DB5132249D700539BD4 /* About View */ = {
+			isa = PBXGroup;
+			children = (
+				AED42DB613224A0400539BD4 /* AboutViewController.h */,
+				AED42DB713224A0400539BD4 /* AboutViewController.m */,
+			);
+			name = "About View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* fretruler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "fretruler" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fretruler;
+			productName = "FretRuler-Attemp1";
+			productReference = AEE62739133352C000223DCE /* FretRuler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Shallow Waters Group LLC";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FretboardRuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* fretruler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED42CD2131FBA9100539BD4 /* Default.png in Resources */,
+				AED42CD3131FBA9100539BD4 /* Default@2x.png in Resources */,
+				AED42CD4131FBA9100539BD4 /* Icon-72.png in Resources */,
+				AED42CD5131FBA9100539BD4 /* Icon-Small-50.png in Resources */,
+				AED42CD6131FBA9100539BD4 /* Icon-Small.png in Resources */,
+				AED42CD7131FBA9100539BD4 /* Icon-Small@2x.png in Resources */,
+				AED42CD8131FBA9100539BD4 /* Icon.png in Resources */,
+				AED42CD9131FBA9100539BD4 /* Icon@2x.png in Resources */,
+				AED42DC4132251EB00539BD4 /* SWGLogoSmall.png in Resources */,
+				AED42DC5132251EB00539BD4 /* SWGLogoSmall@2.png in Resources */,
+				AEEC98DD133214C700135597 /* PresetsViewController.xib in Resources */,
+				AEEC98DE133214C700135597 /* AboutViewController.xib in Resources */,
+				AEEC98DF133214C700135597 /* OptionsViewController.xib in Resources */,
+				AEEC98E0133214C700135597 /* FretboardRulerViewController.xib in Resources */,
+				AEEC98E1133214C700135597 /* MainWindow.xib in Resources */,
+				AEEC98E3133214DD00135597 /* DefaultPresets.xml in Resources */,
+				AEE6273613321BF800223DCE /* Settings.bundle in Resources */,
+				AEE627381333502D00223DCE /* iTunesArtwork in Resources */,
+				AE67A93F13376D38006D28E8 /* Default-Landscape~ipad.png in Resources */,
+				AE67A94013376D38006D28E8 /* Default-Portrait~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3623260D0F684500981E51 /* FretboardRulerAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* FretboardRulerViewController.m in Sources */,
+				AEAC0DAC130634650037A9B7 /* DrawCALayerDelegate.m in Sources */,
+				AE7D0E4B1309829D006A64F8 /* OptionsViewController.m in Sources */,
+				AE7D0EC513099314006A64F8 /* PresetsViewController.m in Sources */,
+				AEC389D21316B88200902153 /* NSDataAdditions.m in Sources */,
+				AEC389D31316B88200902153 /* TBXML.m in Sources */,
+				AED42DB913224A0400539BD4 /* AboutViewController.m in Sources */,
+				AEEC98CB1332139C00135597 /* FretBoard.m in Sources */,
+				AEEC98D0133213C700135597 /* Fret.m in Sources */,
+				AEEC98D1133213C700135597 /* Preset.m in Sources */,
+				AEEC98D41332140800135597 /* main.m in Sources */,
+				AEEC98D71332143200135597 /* ExportToPDF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FretboardRuler_Prefix.pch;
+				INFOPLIST_FILE = "FretboardRuler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = FretRuler;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FretboardRuler_Prefix.pch;
+				INFOPLIST_FILE = "FretboardRuler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = FretRuler;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE8C562D13279B12002B5598 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = FretboardRuler;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		AE8C562E13279B12002B5598 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FretboardRuler_Prefix.pch;
+				INFOPLIST_FILE = "FretboardRuler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = FretRuler;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = FretboardRuler;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = FretboardRuler;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "fretruler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				AE8C562E13279B12002B5598 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FretboardRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				AE8C562D13279B12002B5598 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

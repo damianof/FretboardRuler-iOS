@@ -1,0 +1,51 @@
+//
+// Prefix header for all source files of the 'FretRuler-Attemp1' target in the 'FretRuler-Attemp1' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define BEST_BYTE_ALIGNMENT 16
+#define COMPUTE_BEST_BYTES_PER_ROW(bpr)		( ( (bpr) + (BEST_BYTE_ALIGNMENT-1) ) & ~(BEST_BYTE_ALIGNMENT-1) )
+
+#define CLEAR_COLOR [UIColor clearColor]
+
+#define BG_COLOR [UIColor whiteColor]
+#define INV_BG_COLOR [UIColor blackColor]
+
+#define FRET_LINE_COLOR [UIColor blackColor].CGColor
+#define INV_FRET_LINE_COLOR [UIColor whiteColor].CGColor
+
+#define NUT_LINE_COLOR [UIColor blueColor].CGColor
+#define INV_NUT_LINE_COLOR [UIColor blueColor].CGColor
+
+#define BRIDGE_LINE_COLOR [UIColor greenColor].CGColor
+#define INV_BRIDGE_LINE_COLOR [UIColor greenColor].CGColor
+
+#define BORDERS_LINE_COLOR [UIColor grayColor].CGColor
+#define INV_BORDERS_LINE_COLOR [UIColor whiteColor].CGColor
+
+#define RULER_LINE_COLOR [UIColor redColor].CGColor
+#define INV_RULER_LINE_COLOR [UIColor yellowColor].CGColor
+
+#define TEXT_COLOR [UIColor blackColor].CGColor
+#define INV_TEXT_COLOR [UIColor whiteColor].CGColor
+
+#define MIN_DIAPASON 50.0f
+#define MAX_DIAPASON 1075.0f
+#define INITIAL_DIAPASON 647.7f
+
+#define MIN_FRETS 0
+#define MAX_FRETS 48
+#define INITIAL_FRETS 21
+
+#define DRAW_LAYER_WIDTH 240
+
+
+#define TAKE_SCREENSHOTS 0
+#define SCREENSHOT_RES 288
+#define IMAGE_SAVE_RES 144
+
+#define kCompanyURL @"http://www.shallowwatersgroup.com"
